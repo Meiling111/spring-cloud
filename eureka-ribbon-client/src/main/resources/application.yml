@@ -1,0 +1,12 @@
+server:
+  port: 8072
+  
+spring:
+  application:
+    name: eureka-ribbon-client # 程序名
+
+eureka:
+  client:
+    serviceUrl: 
+      defaultZone: http://localhost:8763/eureka/
+      
