@@ -2,7 +2,7 @@
 <project
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	
+
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.cn.gml</groupId>
@@ -13,6 +13,11 @@
 	<name>eureka-ribbon-client</name>
 
 	<dependencies>
+		<!-- 服务容错hystrix的依赖 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+		</dependency>
 		<!-- eureka client 起步依赖 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
