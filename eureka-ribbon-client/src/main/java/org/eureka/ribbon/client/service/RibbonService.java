@@ -50,7 +50,7 @@ public class RibbonService {
 	 * @author gaomeiling
 	 * @date 2019年8月20日
 	 */
-	public String HiError(String name){
+	public String hiError(String name){
 		return "hi,"+name+",sorry,error!";
 	}
 }

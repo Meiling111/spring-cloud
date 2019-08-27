@@ -1,13 +1,9 @@
 server:
-  port: 8073
+  port: 8071
   
 spring:
   application:
-    name: eureka-feign-client # 程序名
-    
-feign:
-  hystrix:
-    enabled: true #启动hystrix 熔断器服务
+    name: eureka-client # 程序名
 
 eureka:
   client:
